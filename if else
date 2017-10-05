@@ -2,3 +2,12 @@ for (i in seq(4)) {
   if (i %% 2 == 0) {print(log(i))}
   else {print("Odd")}
 }
+
+x <- runif(1, min = 0, max = 10)
+if(x > 3) {
+y <- 10
+print("x is greater than three")
+} else {
+y <- 0
+print("x is less than three")
+}
