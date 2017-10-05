@@ -1,0 +1,4 @@
+x <- matrix(rnorm(200), nrow = 20, ncol = 10)
+apply(x, 2, mean)
+apply(x, 1, mean)
+apply(x, 2, quantile, probs = c(0.25, 0.75))
