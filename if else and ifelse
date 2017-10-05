@@ -11,3 +11,5 @@ print("x is greater than three")
 y <- 0
 print("x is less than three")
 }
+
+ifelse(seq(4) %% 2 == 0, log(seq(4)), "Odd")
