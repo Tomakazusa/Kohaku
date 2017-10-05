@@ -1,0 +1,4 @@
+for (i in seq(4)) {
+  if (i %% 2 == 0) {print(log(i))}
+  else {print("Odd")}
+}
