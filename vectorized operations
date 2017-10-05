@@ -1,0 +1,6 @@
+u <- c(1,2,3)
+v <- c(10,-20,30)
+c <- vector(mode = "numeric", length = length(u))
+for (i in 1:length(u)) {
+c[i] <- u[i] + v[i]
+}
