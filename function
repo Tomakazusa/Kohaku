@@ -1,6 +1,15 @@
+#1
 above<-function(x,n){
   a<-x>n
   return(x[a])
 }
 
-
+#2
+colmean<-function(x){
+  nc<-ncol(x)
+  means<-numeric(nc)
+  for(i in 1:nc){
+    means[i]<-mean(x[,i])
+  }
+  return(means)
+}
