@@ -1,0 +1,6 @@
+above<-function(x,n){
+  a<-x>n
+  return(x[a])
+}
+
+
