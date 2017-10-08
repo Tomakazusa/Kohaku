@@ -5,11 +5,12 @@ for (i in seq(4)) {
 
 x <- runif(1, min = 0, max = 10)
 if(x > 3) {
-y <- 10
-print("x is greater than three")
-} else {
-y <- 0
-print("x is less than three")
+  y <- 10
+  print("x is greater than three")
+} 
+else {
+  y <- 0
+  print("x is less than three")
 }
 
 ifelse(seq(4) %% 2 == 0, log(seq(4)), "Odd")
