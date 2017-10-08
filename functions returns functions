@@ -1,9 +1,8 @@
 make.power<-function(n){
   pow<-function(x){
-  x^n
-}
+    x^n
+  }
   pow
-}
 }
 x<-make.power(3)
 x(3)
