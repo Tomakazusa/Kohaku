@@ -1,3 +1,4 @@
+#1
 for (i in seq(4)) {
   if (i %% 2 == 0) {print(log(i))}
   else {print("Odd")}
@@ -12,5 +13,10 @@ else {
   y <- 0
   print("x is less than three")
 }
-
+#2
 ifelse(seq(4) %% 2 == 0, log(seq(4)), "Odd")
+#3
+res_loss <- function(x) {
+loss_vec <- ifelse(x^2 > 1, 2*abs(x) - 1, x^2)
+return(loss_vec)
+}
